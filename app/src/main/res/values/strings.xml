@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Add</string>
+    <string name="tab_text_3">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="API_KEY">AIzaSyCZiH-FjA3NFKmEmLwqNbAJrmtPIZCrW-M</string>
+    <string name="LAT">-6.202243999999999</string>
+    <string name="LONG">106.784403</string>
+    <string name="USER_DATABASE_URL">https://skripsi-96464-default-rtdb.asia-southeast1.firebasedatabase.app/</string>
+    <string name="LOCATION_DATABASE_URL">https://skripsi-96465.firebaseio.com/</string>
+
+</resources>
