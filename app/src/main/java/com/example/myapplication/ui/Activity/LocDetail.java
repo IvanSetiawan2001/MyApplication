@@ -201,10 +201,14 @@ public class LocDetail extends AppCompatActivity implements OnMapReadyCallback {
              Lat = locDetail.getGooglePlaceDetailModelList().getGeometry().getLocation().getLat();
              Long = locDetail.getGooglePlaceDetailModelList().getGeometry().getLocation().getLng();
 
+
+             //set map fragment
              SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                      .findFragmentById(R.id.map);
 
              mapFragment.getMapAsync(LocDetail.this);
+             //sampai sini set map fragment nya
+
 
              if(locDetail.getGooglePlaceDetailModelList().getOpeningHours() != null){
 
@@ -273,6 +277,7 @@ public class LocDetail extends AppCompatActivity implements OnMapReadyCallback {
     }
 
 
+    //apply map nya pakai function yang ini
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
 
